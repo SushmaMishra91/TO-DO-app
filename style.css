@@ -1,0 +1,76 @@
+h2 {
+    font-family:   'Poppins', sans-serif;
+    color: #adc1cc;
+    justify-content: center;
+    font-size: 70px;
+}
+body {
+    background-color: #d6bed4;
+    text-align: center;
+
+
+}
+.box {
+  background-color: #b68a9c;          
+  padding: 30px;                    
+  width: 600px;                    
+  border-radius: 30px;              
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);  /* Soft shadow */
+  text-align: center;              /* Center the text */
+  margin: 100px auto;              /* Center on the page */
+  margin-bottom: 5px; 
+  position: relative;
+
+}
+p {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #882f80;
+}
+.button {
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    background-color: #7085c0;
+    color: azure;
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 15px 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background-color: #5a5994;
+    transform: scale(1.05);
+}
+@keyframes popIn {
+    0% {
+        transform: translateY(-50deg) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+.puppy {
+    position: absolute;
+    top: -140px;
+    left: -0px;
+    width: 200px;
+    transform: rotate(-0deg);
+    animation: popIn 2s ease-out;    
+}
+#taskList li {
+    color: #6b1f65;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+#taskList {
+    text-align: left;
+    padding-left: 20px;
+}
